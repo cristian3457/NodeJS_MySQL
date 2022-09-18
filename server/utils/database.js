@@ -1,13 +1,13 @@
 const Sequalize = require('Sequelize');
 
 const sequalizeDB = new Sequalize(
-    'prueba',
-    'root',
-    'root',
+    'liga_mx34578',
+    'guero34578',
+    'Aguilas25*',
     {
         dialect: 'mysql',
-        host: 'localhost',
-        port:'3310'
+        host: 'db4free.net',
+        port:'3306'
     }
 );
 
